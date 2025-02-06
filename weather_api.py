@@ -48,7 +48,7 @@ print(f"the temperature in {city} is {temp_celsius} degree or {temp_fahrenheit} 
 
 print(f"the minimum temperature in {city} is {mintempc} degree or {mintempf} fahrenheit")
 
-print(f"the maximum temperature in {city} is {maxtempc} degree or {maxtempf} fahrenheit")
+print(f"the maximum temperature in {city} is {maxtempc} degree orr {maxtempf} fahrenheit")
 print(f"the windspeed in {city}is {windspeed}")
 
 
