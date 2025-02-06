@@ -7,7 +7,7 @@ typical workflow of git
 3. make changes to the code
 4. commit the changes
 5. push the changes to the remote repository
-6. create a pull request
+6. create a pull request 
 7. merge the pull request
-8. pull the merged changes to your local main repository
+8. pull the merged changes to your local main repository   (git pull = git fetch + git merge)
 9. repeart from step 2 or delete the branch (optional) 
