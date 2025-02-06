@@ -11,3 +11,24 @@ typical workflow of git
 7. merge the pull request
 8. pull the merged changes to your local main repository   (git pull = git fetch + git merge)
 9. repeart from step 2 or delete the branch (optional) 
+
+
+          local repository | remote repository 
+main                       | 
+branch1                    | 
+branch2                    | 
+
+
+//// merge conflict /////
+lets go step by step 
+1.) there is a file which is modified in branch1 and pushed to remote repository
+2.) now there is a branch2 which is modified the same file in different way and pushed to remote repository
+3.) we created a pull request in both branches
+4.) now lets say we merged branch2 to main
+5.)now when we try to merge branch1 to main, git will not be able to merge the file because of the conflict
+6.) git will show the conflict and we need to resolve it manually
+
+
+
+
+merge conflict is when two branches have different changes to the same file and git cannot automatically merge them.
