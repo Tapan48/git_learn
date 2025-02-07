@@ -32,3 +32,24 @@ lets go step by step
 
 
 merge conflict is when two branches have different changes to the same file and git cannot automatically merge them.
+
+steps to resolve merge conflict
+1.)lets say brnach1 and branch2 are modified the same readme file in different way and pushed to their respective remote repositories
+2.)now we raise a pull request in both branches to main branch
+3.)now lets say we merged branch2 to main
+4.)now when we try to merge branch1 to main, git will not be able to merge the file because of the conflict
+5.) git will show the conflict and we need to resolve it manually
+6.)go to main branch and pull latest changes from remote repository that u merged with branch2
+7.)ur main branch is now updated with branch2 changes
+8.)now go to branch1 and merge main branch to branch1 by using git merge main
+9)now u can solve the conflict by comparing the changes in both files and resolving the conflict(u can accept branch1 changes or branch2 changes or solve it manually)
+10.)after solving the conflict, u need to add the file to staging area by using git add <file_name>
+11.)now u need to commit the changes by using git commit -m "commit_message"
+12.)now u can push the changes to the remote repository branch1 by using git push origin <branch_name>
+13.)the merge conflict is now resolved and u can delete the branch1 by using git branch -d branch1
+
+
+
+
+
+
